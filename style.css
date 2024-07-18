@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color:white;
+}
+
+header{
+    text-align: center;
+    color: aliceblue;
+    background-color: darkslateblue;
+    padding: 20px;
+}
+    
+
+main {
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    
+
+}
+.sobre-mim, .projetos, .contatos {
+background-color: lightgray;
+padding: 15px;
+width: 60%;
+margin: 0 auto;
+border-radius: 10px;
+
+}
+.projeto1, .projeto2, .projeto3{
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+    
+
+}
+.projetos{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+footer {
+    background-color: darkslateblue;
+    text-align: center;
+    color: aliceblue;
+}
+h2{
+    color: darkslateblue;
+
+}
+h3{
+    color: darkslateblue;
+}
